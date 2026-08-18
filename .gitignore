@@ -1,0 +1,30 @@
+# ===== ST 官方库（用 STM32CubeMX 打开 bisai.ioc 可重新生成）=====
+Drivers/
+
+# ===== Keil MDK 编译产物 =====
+MDK-ARM/bisai/
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/
+MDK-ARM/*.lst
+MDK-ARM/*.uvguix.*
+
+# ===== 通用编译产物 =====
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.dep
+*.htm
+*.lnp
+*.lst
+*.sct
+*.scvd
+*.uvguix.*
+JLinkLog.txt
+
+# ===== 其他 =====
+*.bak
+Thumbs.db
+.DS_Store
